@@ -1,0 +1,272 @@
+{
+    "anims": [
+        {
+            "key": "hit",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "assassin",
+                    "frame": "hit_(1)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "hit_(2)"
+                }
+            ]
+        },
+        {
+            "key": "death",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "assassin",
+                    "frame": "death_(1)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "death_(2)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "death_(3)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "death_(4)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "death_(5)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "death_(6)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "death_(7)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "death_(8)"
+                }
+            ]
+        },
+        {
+            "key": "slice",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "assassin",
+                    "frame": "slice_(1)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "slice_(2)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "slice_(3)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "slice_(4)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "slice_(5)"
+                }
+            ]
+        },
+        {
+            "key": "attack1",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "assassin",
+                    "frame": "attack1_(1)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "attack1_(2)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "attack1_(3)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "attack1_(4)"
+                }
+            ]
+        },
+        {
+            "key": "attack2",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "assassin",
+                    "frame": "attack2_(1)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "attack2_(2)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "attack2_(3)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "attack2_(4)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "attack2_(5)"
+                }
+            ]
+        },
+        {
+            "key": "idle",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "assassin",
+                    "frame": "idle_(1)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "idle_(2)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "idle_(3)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "idle_(4)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "idle_(5)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "idle_(6)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "idle_(7)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "idle_(8)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "idle_(9)"
+                }
+            ]
+        },
+        {
+            "key": "sweep_attack",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "assassin",
+                    "frame": "sweep_attack_(1)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "sweep_attack_(2)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "sweep_attack_(3)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "sweep_attack_(4)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "sweep_attack_(5)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "sweep_attack_(6)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "sweep_attack_(7)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "sweep_attack_(8)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "sweep_attack_(9)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "sweep_attack_(10)"
+                }
+            ]
+        },
+        {
+            "key": "run",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "assassin",
+                    "frame": "run_(1)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "run_(2)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "run_(3)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "run_(4)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "run_(5)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "run_(6)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "run_(7)"
+                },
+                {
+                    "key": "assassin",
+                    "frame": "run_(8)"
+                }
+            ]
+        }
+    ]
+}

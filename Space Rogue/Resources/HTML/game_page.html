@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" http-equiv="refresh">
+        <title>Game Page</title>
+        <link rel="stylesheet" href="http://127.0.0.1:3000/Styles/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        
+        <script src="http://127.0.0.1:3000/JS/phaser.js"></script>
+        <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+        
+    </head>
+
+    <body>
+        <script src="http://127.0.0.1:3000/JS/game_app.js"></script>
+        <div class="container-fluid" id="top">
+            <nav style:"text-align:center">Space Rogue</nav>
+            <div class="row" id="row1" style="border:0px;">
+                <div class="col-2" style="padding:0px; text-align: center;">
+                    <div class="row-auto" style="border: 2px solid;">
+                        <p id = "score" style="margin:0; padding:1.25%;">Score:<br />0</p>
+                    </div>
+                </div>
+                <div class="col-8" id="health_bar" style="padding:0px;">
+                    <div class="row-2">
+                        <p style="margin:0; padding-top:1.25%;">Health</p>
+                    </div>
+                </div>
+                <div class="col-2" style="padding:0px; text-align: center;">
+                    <div class="row-auto" style="border: 2px solid;">
+                        <p style="margin:0; padding-top:1.25%;"> Level 1<br /> Dirk Simril </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id ="phaser"></div>
+
+        <nav id="inventory-open">
+            <img id="desertKey" src ="http://127.0.0.1:3000/Images/Keys/key1g.png"/>
+            <img id="jungleKey" src ="http://127.0.0.1:3000/Images/Keys/key2g.png"/>
+            <img id="glacierKey" src ="http://127.0.0.1:3000/Images/Keys/key3g.png"/>
+            <img src ="http://127.0.0.1:3000/Images/Inventory Eyes/Closed Eye.jpg" onClick = "document.getElementById('inventory-open').style.display = 'none';document.getElementById('inventory-closed').style.display = 'inline-block';"/>
+        </nav>
+        <nav onClick = "document.getElementById('inventory-closed').style.display = 'none';document.getElementById('inventory-open').style.display = 'inline-block';" id="inventory-closed">
+            
+        </nav>
+
+        
+    </body>
+
+
+</html>

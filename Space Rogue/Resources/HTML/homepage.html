@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" http-equiv="refresh">
+        <title>Homepage</title>
+        <link rel="stylesheet" href="http://127.0.0.1:3000/Styles/style.css">
+        <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    </head>
+
+
+
+    <body style="background-color : whitesmoke ;">
+        <div style="height: 20%;
+    width: 90%;
+    position: fixed;
+    top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;">
+            <h1 id="title">
+                Space Rogue
+            </h1>
+        </div>
+        <div style="height: 20%;
+    width: 50%;
+    position: fixed;
+    top: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;">
+            <h1 id=play onclick ="window.location.href ='http://127.0.0.1:3000/game';">
+                Play
+            </h1>
+        </div>
+        <div id="scoreContainer">
+            <h1 style ="margin-left:5%">Leaderboards</h1>
+            <div class="scoreWrapper">
+                <div class="scores">Name</div>
+                <div class="scores">Score</div>
+            </div>
+
+        </div>
+
+        <script>
+            fetch('http://localhost:3000/getscores')
+                .then(res => res.json())
+                .then(data => array = data)
+                .then(() => displayScores(array))
+
+            function displayScores(array) {
+                
+                var scores = document.getElementById("scoreContainer");
+                console.log(array['users']);
+                for (var obj in array['users']) {
+                    var n = document.createElement("div");
+                    var s = document.createElement("div");
+                    n.className = "scores";
+                    s.className = "scores";
+                    n.innerHTML = array['users'][obj]["name"];
+                    s.innerHTML = array['users'][obj]["score"];
+                    var p = document.createElement("div");
+                    p.className = "scoreWrapper";
+                    p.appendChild(n);
+                    p.appendChild(s);
+                    scores.appendChild(p);
+                }
+            }
+        </script>
+
+
+
+
+    </body>
+
+
+</html>

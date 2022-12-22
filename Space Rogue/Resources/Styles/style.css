@@ -1,0 +1,172 @@
+
+html {
+    height: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    font-family: "Default";
+}
+@font-face {
+    font-family: "Default";
+    src: url("http://127.0.0.1:3000/Fonts/Kusanagi.otf");
+}
+
+body {
+    height:100%;
+    font-family: "Default";
+    margin: 0px;
+
+}
+
+#top {
+    padding: 0px;
+    font-family: "Default";
+    position: fixed;
+    top: 0;
+    z-index:+1;
+}
+
+nav {
+    background-color: #205C5F;
+    color: white;
+    text-align:center;
+}
+
+    nav img {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        background-color: #855DBB;
+        border: 2px solid white;
+        height: auto;
+        width: 5%;
+    }
+
+        nav img:hover {
+            background-color: white;
+            border: 2px solid #551D9F;
+        }
+
+    nav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        border: 2px solid #551D9F;
+    }
+
+#myCanvas {
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    display: block;
+    background-color: #FFECC5;
+    color: #3C2C6D;
+}
+
+#phaser {
+    position:fixed;
+    display: block;
+    background-color: #1e1e1e;
+    color: white;
+    height:100vh;
+    width: 100%;
+}
+
+#inventory-open {
+    overflow: hidden;
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    z-index: +1;
+    background-color: #205C5F;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+#inventory-closed {
+    overflow: hidden;
+    display: none;
+    position: fixed;
+    bottom: 0;
+    z-index: +2;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    background-image: url("http://127.0.0.1:3000/Images/Inventory Eyes/Open Eye.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#health_bar {
+    border: 2px solid;
+    background: linear-gradient(110deg, #855DBB 100%, #551D9F 100%);
+    color: white;
+    text-align: center;
+}
+
+#row2, #row1{
+    margin:0;
+    background-color: #eee;
+    float: none;
+    margin-right: 0;
+    margin-left: 0;
+    border: 1px solid;
+    width:100%;
+    height:100%;
+}
+
+#play {
+    background-color: #551D9F;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#scoreContainer {
+    background-color: #205C5F;
+    font-size: xx-large;
+    text-align: center;
+    height: 60%;
+    width: 90%;
+    position: fixed;
+    bottom: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#title {
+    background-color: #205C5F;
+    font-size: xxx-large;
+    text-align: center;
+    margin-top: 2%;
+    height: 50%;
+}
+
+.scoreWrapper {
+    position: static;
+    background-color: #205C5F;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.scores {
+    font-family: Default;
+    color: white;
+    background-color: #551D9F;
+    font-size: large;
+    float: left;
+    display: block;
+    text-align: center;
+    width: 49.89%;
+}

@@ -1,0 +1,200 @@
+{
+    "anims": [
+      {
+        "key": "mg_run",
+        "type": "frames",
+        "repeat": -1,
+        "frameRate": 12,
+        "frames": [
+          {
+            "key": "mud_guard",
+            "frame": "run_(1)"
+          },
+          {
+            "key": "mud_guard",
+            "frame": "run_(2)"
+          },
+          {
+            "key": "mud_guard",
+            "frame": "run_(3)"
+          },
+          {
+            "key": "mud_guard",
+            "frame": "run_(4)"
+          },
+          {
+            "key": "mud_guard",
+            "frame": "run_(5)"
+          },
+          {
+            "key": "mud_guard",
+            "frame": "run_(6)"
+          }
+        ]
+      },
+      {
+        "key": "mg_idle",
+        "type": "frames",
+        "repeat": -1,
+        "frameRate": 12,
+        "frames": [
+          {
+            "key": "mud_guard",
+            "frame": "idle_(1)"
+          },
+          {
+            "key": "mud_guard",
+            "frame": "idle_(2)"
+          },
+          {
+            "key": "mud_guard",
+            "frame": "idle_(3)"
+          },
+          {
+            "key": "mud_guard",
+            "frame": "idle_(4)"
+          },
+          {
+            "key": "mud_guard",
+            "frame": "idle_(5)"
+          }
+        ]
+      },
+      {
+        "key": "mg_death",
+        "type": "frames",
+        "repeat": 0,
+        "frameRate": 12,
+        "frames": [
+          {
+            "key": "mud_guard",
+            "frame": "death_(1)"
+          },
+          {
+            "key": "mud_guard",
+            "frame": "death_(2)"
+          },
+          {
+            "key": "mud_guard",
+            "frame": "death_(3)"
+          },
+          {
+            "key": "mud_guard",
+            "frame": "death_(4)"
+          },
+          {
+            "key": "mud_guard",
+            "frame": "death_(5)"
+          }
+        ]
+      },
+      {
+        "key": "mg_damage2",
+        "type": "frames",
+        "repeat": 0,
+        "frameRate": 12,
+        "frames": [
+          {
+            "key": "mud_guard",
+            "frame": "damage2_(1)"
+          },
+          {
+            "key": "mud_guard",
+            "frame": "damage2_(2)"
+          },
+          {
+            "key": "mud_guard",
+            "frame": "damage2_(3)"
+          }
+        ]
+      },
+      {
+        "key": "mg_damage1",
+        "type": "frames",
+        "repeat": 1,
+        "frameRate": 12,
+        "frames": [
+          {
+            "key": "mud_guard",
+            "frame": "damage1_(1)"
+          },
+          {
+            "key": "mud_guard",
+            "frame": "damage1_(2)"
+          }
+        ]
+      },
+      {
+        "key": "mg_attack2",
+        "type": "frames",
+        "repeat": 0,
+        "frameRate": 12,
+        "frames": [
+          {
+            "key": "mud_guard",
+            "frame": "attack2_(1)"
+          },
+          {
+            "key": "mud_guard",
+            "frame": "attack2_(2)"
+          },
+          {
+            "key": "mud_guard",
+            "frame": "attack2_(3)"
+          },
+          {
+            "key": "mud_guard",
+            "frame": "attack2_(4)"
+          },
+          {
+            "key": "mud_guard",
+            "frame": "attack2_(5)"
+          },
+          {
+            "key": "mud_guard",
+            "frame": "attack2_(6)"
+          },
+          {
+            "key": "mud_guard",
+            "frame": "attack2_(7)"
+          }
+        ]
+      },
+      {
+        "key": "mg_attack1",
+        "type": "frames",
+        "repeat": 0,
+        "frameRate": 12,
+        "frames": [
+          {
+            "key": "mud_guard",
+            "frame": "attack1_(1)"
+          },
+          {
+            "key": "mud_guard",
+            "frame": "attack1_(2)"
+          },
+          {
+            "key": "mud_guard",
+            "frame": "attack1_(3)"
+          },
+          {
+            "key": "mud_guard",
+            "frame": "attack1_(4)"
+          },
+          {
+            "key": "mud_guard",
+            "frame": "attack1_(5)"
+          },
+          {
+            "key": "mud_guard",
+            "frame": "attack1_(6)"
+          },
+          {
+            "key": "mud_guard",
+            "frame": "attack1_(7)"
+          }
+        ]
+      }
+    ]
+}
